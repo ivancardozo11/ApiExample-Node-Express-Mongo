@@ -1,2 +1,2 @@
 # ApiExample-Node-Express-Mongo
-This is an API example builded with Node, Express &amp; Mongo.
+This is an API built with Node, Express & MongoDB.
