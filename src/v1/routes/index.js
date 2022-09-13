@@ -9,4 +9,4 @@ router
     res.send(`<h1>Hello world! ${req.baseUrl} </h1>`);
 });
 
-module.exports = routes;
+module.exports = router;
