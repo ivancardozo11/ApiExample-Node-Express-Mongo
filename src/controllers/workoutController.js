@@ -29,7 +29,7 @@ const createNewWorkout = (req, res) =>{
             trainerTips: body.trainerTips
         };
 
-    const createdWorkout = workoutService.createNewWorkout(req.params.workoutId);
+    const createdWorkout = workoutService.createNewWorkout(newWorkout);
     res.status(201).send({status: "OK",  data: createdWorkout});
 };
 
